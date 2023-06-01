@@ -21,11 +21,17 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center; /*centralizar*/
+    justify-content: center; /*centralizar em relação ao espaço em volta*/
+    align-items: center ; /*centralizar em relação ao eixo principal (row, no caso) */
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0 auto; /*centralizar com a margem lateral responsiva*/
+    gap: 16px;  /*dar espaço entre as fotos */
 }
 
 .gallery img{
     width: 100%;
     max-width: 350px;
     height: 300px;
+    object-fit: cover; /*ajustar a proporção X por y - evitar distorção */
 }
