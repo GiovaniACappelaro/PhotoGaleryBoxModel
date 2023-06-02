@@ -34,4 +34,10 @@ body{
     max-width: 350px;
     height: 300px;
     object-fit: cover; /*ajustar a proporção X por y - evitar distorção */
+    border-radius: 10px;
+}
+
+.gallery::after {
+    content: "";
+    width: 350px;
 }
