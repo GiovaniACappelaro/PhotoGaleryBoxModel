@@ -1,2 +1,2 @@
-# PhotoGaleryBoxModel
-Photo Galery to study BoxModel
+# PhotoGaleryFlexBox
+Photo Galery to study FLexbox
